@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+
+.tela{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    margin: 5vh;
+    position: relative;
+    justify-self: center;
+    width: 100vw;
+    height: auto;
+    zoom: 110%;
+}
+
+.container{
+    background-color: aliceblue;
+    flex-direction: column;
+    width: 60vw;
+    height: 45px;
+    text-align: center;
+}
+
+.container input{
+    border-radius: 12px;
+    width: 60vw;
+    height: 45px;
+    border-color: #6606a5 ;
+    margin-bottom: 25px;
+
+}
+
+.btnform{
+    background-color: aliceblue;
+    border: solid 5px #06a555 ;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: relative;
+    width: 60vw;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 1vh;
+}
+
+.btndecor{
+    position:absolute;
+    width: 30vw;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #6606a5;
+}
+
+.btnform button{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    width: 29vw;
+    height: 50px;
+}
+
+ /* tela principal 
+
+azul claro: 425feb
+ 
+azul: 390da0
+
+roxo: 6606a5
+
+.nav{
+    background-color: ;
+}
+*/
